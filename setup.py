@@ -1,7 +1,7 @@
 import os
 from setuptools import setup
 
-VERSION = "1.8"
+VERSION = "1.8+forked"
 
 
 def get_long_description():
@@ -13,7 +13,7 @@ def get_long_description():
 
 
 setup(
-    name="shot-scraper",
+    name="shot-scraper-forked",
     description="A command-line utility for taking automated screenshots of websites",
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
